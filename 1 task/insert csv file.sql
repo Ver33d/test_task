@@ -1,0 +1,1 @@
+docker exec -i clickhouse bash -c "clickhouse-client --user default --password pivanet --query='INSERT INTO db_test.logsss FORMAT CSV' < /tmp/sm_data.csv"
