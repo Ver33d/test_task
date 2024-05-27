@@ -1,0 +1,90 @@
+[2024-05-27 08:23:03,229] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: clickhouse_script_execution.run_dag_script manual__2024-05-27T08:23:01.507323+00:00 [queued]>
+[2024-05-27 08:23:03,240] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: clickhouse_script_execution.run_dag_script manual__2024-05-27T08:23:01.507323+00:00 [queued]>
+[2024-05-27 08:23:03,241] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-27 08:23:03,242] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2024-05-27 08:23:03,242] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-27 08:23:03,254] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): run_dag_script> on 2024-05-27 08:23:01.507323+00:00
+[2024-05-27 08:23:03,259] {standard_task_runner.py:52} INFO - Started process 1792 to run task
+[2024-05-27 08:23:03,263] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'clickhouse_script_execution', 'run_dag_script', 'manual__2024-05-27T08:23:01.507323+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/dag_script_run_v1.py', '--cfg-path', '/tmp/tmp_xlt510l', '--error-file', '/tmp/tmpi_x0fdnm']
+[2024-05-27 08:23:03,266] {standard_task_runner.py:77} INFO - Job 25: Subtask run_dag_script
+[2024-05-27 08:23:03,434] {logging_mixin.py:109} INFO - Running <TaskInstance: clickhouse_script_execution.run_dag_script manual__2024-05-27T08:23:01.507323+00:00 [running]> on host 5da54c086471
+[2024-05-27 08:23:03,476] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=your.email@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=clickhouse_script_execution
+AIRFLOW_CTX_TASK_ID=run_dag_script
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-27T08:23:01.507323+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-27T08:23:01.507323+00:00
+[2024-05-27 08:23:04,017] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "<string>", line 16, in parse_json
+NameError: name 'json' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9, in run_python_script
+    exec(open('/opt/airflow/dags/dag_script.py').read())
+  File "<string>", line 45, in <module>
+  File "<string>", line 21, in expand_interaction_topics
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "<string>", line 17, in parse_json
+NameError: name 'json' is not defined
+[2024-05-27 08:23:04,045] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=clickhouse_script_execution, task_id=run_dag_script, execution_date=20240527T082301, start_date=20240527T082303, end_date=20240527T082304
+[2024-05-27 08:23:04,069] {standard_task_runner.py:92} ERROR - Failed to execute job 25 for task run_dag_script
+Traceback (most recent call last):
+  File "<string>", line 16, in parse_json
+NameError: name 'json' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9, in run_python_script
+    exec(open('/opt/airflow/dags/dag_script.py').read())
+  File "<string>", line 45, in <module>
+  File "<string>", line 21, in expand_interaction_topics
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 4213, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2403, in pandas._libs.lib.map_infer
+  File "<string>", line 17, in parse_json
+NameError: name 'json' is not defined
+[2024-05-27 08:23:04,119] {local_task_job.py:154} INFO - Task exited with return code 1
+[2024-05-27 08:23:04,262] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

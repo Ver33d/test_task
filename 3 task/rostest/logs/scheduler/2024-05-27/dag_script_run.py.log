@@ -1,0 +1,134 @@
+[2024-05-27 07:51:30,010] {processor.py:163} INFO - Started process (PID=1024) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:51:30,010] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:51:30,011] {logging_mixin.py:109} INFO - [2024-05-27 07:51:30,011] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:51:30,053] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:51:32,786] {logging_mixin.py:109} INFO - [2024-05-27 07:51:32,786] {manager.py:496} INFO - Created Permission View: can read on DAG:clickhouse_script_execution
+[2024-05-27 07:51:32,792] {logging_mixin.py:109} INFO - [2024-05-27 07:51:32,792] {manager.py:496} INFO - Created Permission View: can edit on DAG:clickhouse_script_execution
+[2024-05-27 07:51:32,793] {logging_mixin.py:109} INFO - [2024-05-27 07:51:32,792] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 07:51:32,800] {logging_mixin.py:109} INFO - [2024-05-27 07:51:32,799] {dag.py:2415} INFO - Creating ORM DAG for clickhouse_script_execution
+[2024-05-27 07:51:32,804] {logging_mixin.py:109} INFO - [2024-05-27 07:51:32,804] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-26T07:51:32.804486+00:00
+[2024-05-27 07:51:32,812] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 2.804 seconds
+[2024-05-27 07:52:03,376] {processor.py:163} INFO - Started process (PID=1055) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:03,377] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:52:03,377] {logging_mixin.py:109} INFO - [2024-05-27 07:52:03,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:03,403] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:03,410] {logging_mixin.py:109} INFO - [2024-05-27 07:52:03,410] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 07:52:03,421] {logging_mixin.py:109} INFO - [2024-05-27 07:52:03,421] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 07:52:03,427] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.053 seconds
+[2024-05-27 07:52:33,536] {processor.py:163} INFO - Started process (PID=1067) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:33,538] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:52:33,539] {logging_mixin.py:109} INFO - [2024-05-27 07:52:33,539] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:33,566] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:52:33,577] {logging_mixin.py:109} INFO - [2024-05-27 07:52:33,577] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 07:52:33,591] {logging_mixin.py:109} INFO - [2024-05-27 07:52:33,591] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 07:52:33,597] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.063 seconds
+[2024-05-27 07:53:03,723] {processor.py:163} INFO - Started process (PID=1077) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:03,724] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:53:03,725] {logging_mixin.py:109} INFO - [2024-05-27 07:53:03,725] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:03,753] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:03,760] {logging_mixin.py:109} INFO - [2024-05-27 07:53:03,759] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 07:53:03,768] {logging_mixin.py:109} INFO - [2024-05-27 07:53:03,768] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 07:53:03,775] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.054 seconds
+[2024-05-27 07:53:22,811] {processor.py:163} INFO - Started process (PID=1082) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:22,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:53:22,812] {logging_mixin.py:109} INFO - [2024-05-27 07:53:22,812] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:22,837] {logging_mixin.py:109} INFO - [2024-05-27 07:53:22,836] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:53:22,848] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:22,848] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:22,858] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.050 seconds
+[2024-05-27 07:53:25,866] {processor.py:163} INFO - Started process (PID=1087) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:25,868] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:53:25,869] {logging_mixin.py:109} INFO - [2024-05-27 07:53:25,869] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:25,886] {logging_mixin.py:109} INFO - [2024-05-27 07:53:25,885] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:53:25,903] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:25,910] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.048 seconds
+[2024-05-27 07:53:56,054] {processor.py:163} INFO - Started process (PID=1097) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:56,054] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:53:56,055] {logging_mixin.py:109} INFO - [2024-05-27 07:53:56,055] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:56,066] {logging_mixin.py:109} INFO - [2024-05-27 07:53:56,065] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:53:56,080] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:53:56,088] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.036 seconds
+[2024-05-27 07:54:26,230] {processor.py:163} INFO - Started process (PID=1107) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:26,231] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:54:26,232] {logging_mixin.py:109} INFO - [2024-05-27 07:54:26,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:26,242] {logging_mixin.py:109} INFO - [2024-05-27 07:54:26,241] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:54:26,254] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:26,261] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.033 seconds
+[2024-05-27 07:54:56,405] {processor.py:163} INFO - Started process (PID=1117) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:56,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:54:56,408] {logging_mixin.py:109} INFO - [2024-05-27 07:54:56,407] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:56,423] {logging_mixin.py:109} INFO - [2024-05-27 07:54:56,422] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:54:56,437] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:54:56,450] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.048 seconds
+[2024-05-27 07:55:26,589] {processor.py:163} INFO - Started process (PID=1127) to work on /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:55:26,590] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run.py for tasks to queue
+[2024-05-27 07:55:26,590] {logging_mixin.py:109} INFO - [2024-05-27 07:55:26,590] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:55:26,600] {logging_mixin.py:109} INFO - [2024-05-27 07:55:26,600] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:55:26,609] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run.py
+[2024-05-27 07:55:26,615] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run.py took 0.028 seconds

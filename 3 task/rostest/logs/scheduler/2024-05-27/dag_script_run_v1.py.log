@@ -1,0 +1,1325 @@
+[2024-05-27 07:56:30,193] {processor.py:163} INFO - Started process (PID=1142) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:30,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:56:30,194] {logging_mixin.py:109} INFO - [2024-05-27 07:56:30,194] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:30,204] {logging_mixin.py:109} INFO - [2024-05-27 07:56:30,203] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:56:30,218] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:30,225] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.034 seconds
+[2024-05-27 07:56:33,216] {processor.py:163} INFO - Started process (PID=1147) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:33,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:56:33,218] {logging_mixin.py:109} INFO - [2024-05-27 07:56:33,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:33,230] {logging_mixin.py:109} INFO - [2024-05-27 07:56:33,229] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:56:33,242] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:33,251] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.039 seconds
+[2024-05-27 07:56:36,278] {processor.py:163} INFO - Started process (PID=1157) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:36,279] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:56:36,280] {logging_mixin.py:109} INFO - [2024-05-27 07:56:36,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:36,291] {logging_mixin.py:109} INFO - [2024-05-27 07:56:36,290] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:56:36,300] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:56:36,305] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.029 seconds
+[2024-05-27 07:57:06,431] {processor.py:163} INFO - Started process (PID=1167) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:06,433] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:57:06,433] {logging_mixin.py:109} INFO - [2024-05-27 07:57:06,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:06,452] {logging_mixin.py:109} INFO - [2024-05-27 07:57:06,451] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:57:06,473] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:06,502] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.075 seconds
+[2024-05-27 07:57:36,643] {processor.py:163} INFO - Started process (PID=1177) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:36,644] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:57:36,645] {logging_mixin.py:109} INFO - [2024-05-27 07:57:36,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:36,654] {logging_mixin.py:109} INFO - [2024-05-27 07:57:36,653] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:57:36,664] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:57:36,672] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.033 seconds
+[2024-05-27 07:58:06,775] {processor.py:163} INFO - Started process (PID=1187) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:06,776] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:58:06,776] {logging_mixin.py:109} INFO - [2024-05-27 07:58:06,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:06,785] {logging_mixin.py:109} INFO - [2024-05-27 07:58:06,783] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:58:06,796] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:06,801] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.028 seconds
+[2024-05-27 07:58:36,907] {processor.py:163} INFO - Started process (PID=1197) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:36,908] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:58:36,909] {logging_mixin.py:109} INFO - [2024-05-27 07:58:36,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:36,917] {logging_mixin.py:109} INFO - [2024-05-27 07:58:36,917] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:58:36,929] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:58:36,944] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.038 seconds
+[2024-05-27 07:59:07,059] {processor.py:163} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:07,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:59:07,061] {logging_mixin.py:109} INFO - [2024-05-27 07:59:07,061] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:07,071] {logging_mixin.py:109} INFO - [2024-05-27 07:59:07,071] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:59:07,083] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:07,091] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.034 seconds
+[2024-05-27 07:59:15,096] {processor.py:163} INFO - Started process (PID=1212) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:15,097] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:59:15,097] {logging_mixin.py:109} INFO - [2024-05-27 07:59:15,097] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:15,124] {logging_mixin.py:109} INFO - [2024-05-27 07:59:15,123] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:59:15,134] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:15,139] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.046 seconds
+[2024-05-27 07:59:17,145] {processor.py:163} INFO - Started process (PID=1217) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:17,147] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:59:17,148] {logging_mixin.py:109} INFO - [2024-05-27 07:59:17,148] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:17,161] {logging_mixin.py:109} INFO - [2024-05-27 07:59:17,160] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:59:17,172] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:17,181] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.038 seconds
+[2024-05-27 07:59:47,300] {processor.py:163} INFO - Started process (PID=1227) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:47,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 07:59:47,302] {logging_mixin.py:109} INFO - [2024-05-27 07:59:47,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:47,315] {logging_mixin.py:109} INFO - [2024-05-27 07:59:47,314] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_script_run_v1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_script_run_v1.py", line 9
+    exec(open('C:\Users\ktota\rostest\dag_script.py').read())
+             ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2024-05-27 07:59:47,326] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 07:59:47,333] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.035 seconds
+[2024-05-27 08:00:16,458] {processor.py:163} INFO - Started process (PID=1237) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:16,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:00:16,459] {logging_mixin.py:109} INFO - [2024-05-27 08:00:16,459] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:16,490] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:16,646] {logging_mixin.py:109} INFO - [2024-05-27 08:00:16,646] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:00:16,656] {logging_mixin.py:109} INFO - [2024-05-27 08:00:16,656] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:00:16,666] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.210 seconds
+[2024-05-27 08:00:46,789] {processor.py:163} INFO - Started process (PID=1247) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:46,790] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:00:46,791] {logging_mixin.py:109} INFO - [2024-05-27 08:00:46,791] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:46,819] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:00:46,826] {logging_mixin.py:109} INFO - [2024-05-27 08:00:46,826] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:00:46,834] {logging_mixin.py:109} INFO - [2024-05-27 08:00:46,834] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:00:46,841] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.054 seconds
+[2024-05-27 08:01:16,967] {processor.py:163} INFO - Started process (PID=1257) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:16,967] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:01:16,968] {logging_mixin.py:109} INFO - [2024-05-27 08:01:16,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:16,995] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:17,003] {logging_mixin.py:109} INFO - [2024-05-27 08:01:17,003] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:01:17,016] {logging_mixin.py:109} INFO - [2024-05-27 08:01:17,016] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:01:17,024] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.060 seconds
+[2024-05-27 08:01:47,151] {processor.py:163} INFO - Started process (PID=1267) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:47,151] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:01:47,152] {logging_mixin.py:109} INFO - [2024-05-27 08:01:47,152] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:47,177] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:01:47,184] {logging_mixin.py:109} INFO - [2024-05-27 08:01:47,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:01:47,193] {logging_mixin.py:109} INFO - [2024-05-27 08:01:47,193] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:01:47,198] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.049 seconds
+[2024-05-27 08:02:17,322] {processor.py:163} INFO - Started process (PID=1277) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:17,323] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:02:17,324] {logging_mixin.py:109} INFO - [2024-05-27 08:02:17,324] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:17,354] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:17,363] {logging_mixin.py:109} INFO - [2024-05-27 08:02:17,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:02:17,381] {logging_mixin.py:109} INFO - [2024-05-27 08:02:17,380] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:02:17,396] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.075 seconds
+[2024-05-27 08:02:47,510] {processor.py:163} INFO - Started process (PID=1287) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:47,511] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:02:47,511] {logging_mixin.py:109} INFO - [2024-05-27 08:02:47,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:47,535] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:02:47,545] {logging_mixin.py:109} INFO - [2024-05-27 08:02:47,545] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:02:47,554] {logging_mixin.py:109} INFO - [2024-05-27 08:02:47,554] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:02:47,564] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.058 seconds
+[2024-05-27 08:03:17,723] {processor.py:163} INFO - Started process (PID=1297) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:17,724] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:03:17,724] {logging_mixin.py:109} INFO - [2024-05-27 08:03:17,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:17,756] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:17,763] {logging_mixin.py:109} INFO - [2024-05-27 08:03:17,763] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:03:17,773] {logging_mixin.py:109} INFO - [2024-05-27 08:03:17,773] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:03:17,783] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.063 seconds
+[2024-05-27 08:03:47,898] {processor.py:163} INFO - Started process (PID=1311) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:47,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:03:47,900] {logging_mixin.py:109} INFO - [2024-05-27 08:03:47,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:47,931] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:03:47,939] {logging_mixin.py:109} INFO - [2024-05-27 08:03:47,938] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:03:47,949] {logging_mixin.py:109} INFO - [2024-05-27 08:03:47,949] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:03:47,956] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.060 seconds
+[2024-05-27 08:04:18,080] {processor.py:163} INFO - Started process (PID=1321) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:18,081] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:04:18,082] {logging_mixin.py:109} INFO - [2024-05-27 08:04:18,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:18,106] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:18,117] {logging_mixin.py:109} INFO - [2024-05-27 08:04:18,117] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:04:18,130] {logging_mixin.py:109} INFO - [2024-05-27 08:04:18,130] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:04:18,142] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.066 seconds
+[2024-05-27 08:04:48,261] {processor.py:163} INFO - Started process (PID=1331) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:48,262] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:04:48,262] {logging_mixin.py:109} INFO - [2024-05-27 08:04:48,262] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:48,296] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:04:48,307] {logging_mixin.py:109} INFO - [2024-05-27 08:04:48,306] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:04:48,320] {logging_mixin.py:109} INFO - [2024-05-27 08:04:48,320] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:04:48,328] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.070 seconds
+[2024-05-27 08:05:18,442] {processor.py:163} INFO - Started process (PID=1341) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:18,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:05:18,443] {logging_mixin.py:109} INFO - [2024-05-27 08:05:18,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:18,473] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:18,482] {logging_mixin.py:109} INFO - [2024-05-27 08:05:18,482] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:05:18,495] {logging_mixin.py:109} INFO - [2024-05-27 08:05:18,494] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:05:18,503] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.063 seconds
+[2024-05-27 08:05:48,620] {processor.py:163} INFO - Started process (PID=1351) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:48,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:05:48,622] {logging_mixin.py:109} INFO - [2024-05-27 08:05:48,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:48,644] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:05:48,653] {logging_mixin.py:109} INFO - [2024-05-27 08:05:48,653] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:05:48,661] {logging_mixin.py:109} INFO - [2024-05-27 08:05:48,661] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:05:48,671] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.053 seconds
+[2024-05-27 08:06:18,796] {processor.py:163} INFO - Started process (PID=1361) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:18,798] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:06:18,799] {logging_mixin.py:109} INFO - [2024-05-27 08:06:18,799] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:18,828] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:18,836] {logging_mixin.py:109} INFO - [2024-05-27 08:06:18,836] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:06:18,846] {logging_mixin.py:109} INFO - [2024-05-27 08:06:18,846] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:06:18,855] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.063 seconds
+[2024-05-27 08:06:49,015] {processor.py:163} INFO - Started process (PID=1371) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:49,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:06:49,018] {logging_mixin.py:109} INFO - [2024-05-27 08:06:49,018] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:49,064] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:06:49,074] {logging_mixin.py:109} INFO - [2024-05-27 08:06:49,074] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:06:49,096] {logging_mixin.py:109} INFO - [2024-05-27 08:06:49,096] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:06:49,106] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.096 seconds
+[2024-05-27 08:07:19,247] {processor.py:163} INFO - Started process (PID=1383) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:19,248] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:07:19,249] {logging_mixin.py:109} INFO - [2024-05-27 08:07:19,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:19,272] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:19,280] {logging_mixin.py:109} INFO - [2024-05-27 08:07:19,280] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:07:19,288] {logging_mixin.py:109} INFO - [2024-05-27 08:07:19,288] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:07:19,298] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.054 seconds
+[2024-05-27 08:07:31,317] {processor.py:163} INFO - Started process (PID=1388) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:31,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:07:31,319] {logging_mixin.py:109} INFO - [2024-05-27 08:07:31,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:31,355] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:07:31,363] {logging_mixin.py:109} INFO - [2024-05-27 08:07:31,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:07:31,373] {logging_mixin.py:109} INFO - [2024-05-27 08:07:31,373] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:07:31,386] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.070 seconds
+[2024-05-27 08:08:01,414] {processor.py:163} INFO - Started process (PID=1398) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:01,415] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:08:01,416] {logging_mixin.py:109} INFO - [2024-05-27 08:08:01,416] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:01,444] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:01,453] {logging_mixin.py:109} INFO - [2024-05-27 08:08:01,453] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:08:01,466] {logging_mixin.py:109} INFO - [2024-05-27 08:08:01,466] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:08:01,472] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.061 seconds
+[2024-05-27 08:08:31,599] {processor.py:163} INFO - Started process (PID=1410) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:31,600] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:08:31,600] {logging_mixin.py:109} INFO - [2024-05-27 08:08:31,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:31,628] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:08:31,636] {logging_mixin.py:109} INFO - [2024-05-27 08:08:31,636] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:08:31,645] {logging_mixin.py:109} INFO - [2024-05-27 08:08:31,645] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:08:31,654] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.057 seconds
+[2024-05-27 08:09:01,786] {processor.py:163} INFO - Started process (PID=1422) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:01,787] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:09:01,788] {logging_mixin.py:109} INFO - [2024-05-27 08:09:01,788] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:01,817] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:01,823] {logging_mixin.py:109} INFO - [2024-05-27 08:09:01,823] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:09:01,831] {logging_mixin.py:109} INFO - [2024-05-27 08:09:01,831] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:09:01,837] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.054 seconds
+[2024-05-27 08:09:31,985] {processor.py:163} INFO - Started process (PID=1432) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:31,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:09:31,987] {logging_mixin.py:109} INFO - [2024-05-27 08:09:31,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:32,013] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:09:32,025] {logging_mixin.py:109} INFO - [2024-05-27 08:09:32,024] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:09:32,036] {logging_mixin.py:109} INFO - [2024-05-27 08:09:32,036] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:09:32,050] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.067 seconds
+[2024-05-27 08:10:02,195] {processor.py:163} INFO - Started process (PID=1442) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:02,196] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:10:02,197] {logging_mixin.py:109} INFO - [2024-05-27 08:10:02,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:02,222] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:02,229] {logging_mixin.py:109} INFO - [2024-05-27 08:10:02,229] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:10:02,238] {logging_mixin.py:109} INFO - [2024-05-27 08:10:02,238] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:10:02,246] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.052 seconds
+[2024-05-27 08:10:32,381] {processor.py:163} INFO - Started process (PID=1452) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:32,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:10:32,383] {logging_mixin.py:109} INFO - [2024-05-27 08:10:32,383] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:32,430] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:10:32,437] {logging_mixin.py:109} INFO - [2024-05-27 08:10:32,436] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:10:32,445] {logging_mixin.py:109} INFO - [2024-05-27 08:10:32,445] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:10:32,457] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.078 seconds
+[2024-05-27 08:11:02,595] {processor.py:163} INFO - Started process (PID=1464) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:02,596] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:11:02,597] {logging_mixin.py:109} INFO - [2024-05-27 08:11:02,597] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:02,626] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:02,634] {logging_mixin.py:109} INFO - [2024-05-27 08:11:02,634] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:11:02,643] {logging_mixin.py:109} INFO - [2024-05-27 08:11:02,643] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:11:02,655] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.063 seconds
+[2024-05-27 08:11:32,828] {processor.py:163} INFO - Started process (PID=1474) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:32,829] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:11:32,829] {logging_mixin.py:109} INFO - [2024-05-27 08:11:32,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:32,856] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:11:32,862] {logging_mixin.py:109} INFO - [2024-05-27 08:11:32,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:11:32,872] {logging_mixin.py:109} INFO - [2024-05-27 08:11:32,871] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:11:32,880] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.054 seconds
+[2024-05-27 08:12:03,022] {processor.py:163} INFO - Started process (PID=1484) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:03,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:12:03,024] {logging_mixin.py:109} INFO - [2024-05-27 08:12:03,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:03,068] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:03,079] {logging_mixin.py:109} INFO - [2024-05-27 08:12:03,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:12:03,092] {logging_mixin.py:109} INFO - [2024-05-27 08:12:03,092] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:12:03,102] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.083 seconds
+[2024-05-27 08:12:33,162] {processor.py:163} INFO - Started process (PID=1496) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:33,163] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:12:33,163] {logging_mixin.py:109} INFO - [2024-05-27 08:12:33,163] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:33,193] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:12:33,200] {logging_mixin.py:109} INFO - [2024-05-27 08:12:33,200] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:12:33,209] {logging_mixin.py:109} INFO - [2024-05-27 08:12:33,209] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:12:33,216] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.056 seconds
+[2024-05-27 08:13:03,366] {processor.py:163} INFO - Started process (PID=1506) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:03,367] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:13:03,367] {logging_mixin.py:109} INFO - [2024-05-27 08:13:03,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:03,399] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:03,407] {logging_mixin.py:109} INFO - [2024-05-27 08:13:03,406] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:13:03,418] {logging_mixin.py:109} INFO - [2024-05-27 08:13:03,418] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:13:03,427] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.064 seconds
+[2024-05-27 08:13:33,560] {processor.py:163} INFO - Started process (PID=1518) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:33,560] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:13:33,561] {logging_mixin.py:109} INFO - [2024-05-27 08:13:33,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:33,588] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:13:33,596] {logging_mixin.py:109} INFO - [2024-05-27 08:13:33,596] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:13:33,606] {logging_mixin.py:109} INFO - [2024-05-27 08:13:33,606] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:13:33,615] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.058 seconds
+[2024-05-27 08:14:03,746] {processor.py:163} INFO - Started process (PID=1528) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:03,747] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:14:03,747] {logging_mixin.py:109} INFO - [2024-05-27 08:14:03,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:03,773] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:03,781] {logging_mixin.py:109} INFO - [2024-05-27 08:14:03,781] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:14:03,792] {logging_mixin.py:109} INFO - [2024-05-27 08:14:03,792] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:14:03,799] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.056 seconds
+[2024-05-27 08:14:33,958] {processor.py:163} INFO - Started process (PID=1538) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:33,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:14:33,961] {logging_mixin.py:109} INFO - [2024-05-27 08:14:33,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:34,002] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:14:34,019] {logging_mixin.py:109} INFO - [2024-05-27 08:14:34,018] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:14:34,038] {logging_mixin.py:109} INFO - [2024-05-27 08:14:34,038] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:14:34,056] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.103 seconds
+[2024-05-27 08:15:04,097] {processor.py:163} INFO - Started process (PID=1548) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:04,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:15:04,099] {logging_mixin.py:109} INFO - [2024-05-27 08:15:04,099] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:04,132] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:04,142] {logging_mixin.py:109} INFO - [2024-05-27 08:15:04,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:15:04,160] {logging_mixin.py:109} INFO - [2024-05-27 08:15:04,160] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:15:04,170] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.076 seconds
+[2024-05-27 08:15:34,312] {processor.py:163} INFO - Started process (PID=1558) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:34,312] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:15:34,313] {logging_mixin.py:109} INFO - [2024-05-27 08:15:34,313] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:34,337] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:15:34,343] {logging_mixin.py:109} INFO - [2024-05-27 08:15:34,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:15:34,353] {logging_mixin.py:109} INFO - [2024-05-27 08:15:34,353] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:15:34,362] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.052 seconds
+[2024-05-27 08:16:04,567] {processor.py:163} INFO - Started process (PID=1572) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:04,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:16:04,569] {logging_mixin.py:109} INFO - [2024-05-27 08:16:04,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:04,596] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:04,604] {logging_mixin.py:109} INFO - [2024-05-27 08:16:04,604] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:16:04,615] {logging_mixin.py:109} INFO - [2024-05-27 08:16:04,614] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:16:04,624] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.059 seconds
+[2024-05-27 08:16:34,814] {processor.py:163} INFO - Started process (PID=1593) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:34,815] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:16:34,816] {logging_mixin.py:109} INFO - [2024-05-27 08:16:34,816] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:34,843] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:16:34,852] {logging_mixin.py:109} INFO - [2024-05-27 08:16:34,852] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:16:34,862] {logging_mixin.py:109} INFO - [2024-05-27 08:16:34,862] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:16:34,869] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.058 seconds
+[2024-05-27 08:17:04,999] {processor.py:163} INFO - Started process (PID=1620) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:05,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:17:05,001] {logging_mixin.py:109} INFO - [2024-05-27 08:17:05,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:05,031] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:05,039] {logging_mixin.py:109} INFO - [2024-05-27 08:17:05,039] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:17:05,051] {logging_mixin.py:109} INFO - [2024-05-27 08:17:05,051] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:17:05,057] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.059 seconds
+[2024-05-27 08:17:35,203] {processor.py:163} INFO - Started process (PID=1630) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:35,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:17:35,206] {logging_mixin.py:109} INFO - [2024-05-27 08:17:35,206] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:35,262] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:17:35,274] {logging_mixin.py:109} INFO - [2024-05-27 08:17:35,274] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:17:35,289] {logging_mixin.py:109} INFO - [2024-05-27 08:17:35,288] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:17:35,296] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.097 seconds
+[2024-05-27 08:18:05,356] {processor.py:163} INFO - Started process (PID=1640) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:05,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:18:05,361] {logging_mixin.py:109} INFO - [2024-05-27 08:18:05,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:05,460] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:05,486] {logging_mixin.py:109} INFO - [2024-05-27 08:18:05,486] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:18:05,525] {logging_mixin.py:109} INFO - [2024-05-27 08:18:05,524] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:18:05,551] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.203 seconds
+[2024-05-27 08:18:36,523] {processor.py:163} INFO - Started process (PID=1650) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:36,524] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:18:36,524] {logging_mixin.py:109} INFO - [2024-05-27 08:18:36,524] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:36,549] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:18:36,560] {logging_mixin.py:109} INFO - [2024-05-27 08:18:36,560] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:18:36,570] {logging_mixin.py:109} INFO - [2024-05-27 08:18:36,569] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:18:36,580] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.059 seconds
+[2024-05-27 08:19:06,731] {processor.py:163} INFO - Started process (PID=1677) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:06,732] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:19:06,733] {logging_mixin.py:109} INFO - [2024-05-27 08:19:06,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:06,757] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:06,763] {logging_mixin.py:109} INFO - [2024-05-27 08:19:06,763] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:19:06,771] {logging_mixin.py:109} INFO - [2024-05-27 08:19:06,771] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:19:06,777] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.047 seconds
+[2024-05-27 08:19:36,905] {processor.py:163} INFO - Started process (PID=1687) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:36,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:19:36,906] {logging_mixin.py:109} INFO - [2024-05-27 08:19:36,906] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:36,933] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:19:36,940] {logging_mixin.py:109} INFO - [2024-05-27 08:19:36,940] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:19:36,948] {logging_mixin.py:109} INFO - [2024-05-27 08:19:36,948] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:19:36,957] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.056 seconds
+[2024-05-27 08:20:07,089] {processor.py:163} INFO - Started process (PID=1697) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:07,090] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:20:07,090] {logging_mixin.py:109} INFO - [2024-05-27 08:20:07,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:07,115] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:07,122] {logging_mixin.py:109} INFO - [2024-05-27 08:20:07,122] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:20:07,131] {logging_mixin.py:109} INFO - [2024-05-27 08:20:07,131] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:20:07,136] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.050 seconds
+[2024-05-27 08:20:37,271] {processor.py:163} INFO - Started process (PID=1707) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:37,271] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:20:37,272] {logging_mixin.py:109} INFO - [2024-05-27 08:20:37,272] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:37,296] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:20:37,302] {logging_mixin.py:109} INFO - [2024-05-27 08:20:37,302] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:20:37,310] {logging_mixin.py:109} INFO - [2024-05-27 08:20:37,310] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:20:37,320] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.051 seconds
+[2024-05-27 08:21:07,455] {processor.py:163} INFO - Started process (PID=1734) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:07,456] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:21:07,457] {logging_mixin.py:109} INFO - [2024-05-27 08:21:07,457] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:07,485] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:07,492] {logging_mixin.py:109} INFO - [2024-05-27 08:21:07,492] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:21:07,504] {logging_mixin.py:109} INFO - [2024-05-27 08:21:07,503] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:21:07,515] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.062 seconds
+[2024-05-27 08:21:37,688] {processor.py:163} INFO - Started process (PID=1744) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:37,689] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:21:37,689] {logging_mixin.py:109} INFO - [2024-05-27 08:21:37,689] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:37,714] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:21:37,724] {logging_mixin.py:109} INFO - [2024-05-27 08:21:37,724] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:21:37,733] {logging_mixin.py:109} INFO - [2024-05-27 08:21:37,733] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:21:37,743] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.057 seconds
+[2024-05-27 08:22:07,881] {processor.py:163} INFO - Started process (PID=1771) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:07,882] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:22:07,883] {logging_mixin.py:109} INFO - [2024-05-27 08:22:07,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:07,909] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:07,920] {logging_mixin.py:109} INFO - [2024-05-27 08:22:07,919] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:22:07,932] {logging_mixin.py:109} INFO - [2024-05-27 08:22:07,932] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:22:07,938] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.059 seconds
+[2024-05-27 08:22:38,080] {processor.py:163} INFO - Started process (PID=1781) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:38,081] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:22:38,082] {logging_mixin.py:109} INFO - [2024-05-27 08:22:38,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:38,113] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:22:38,122] {logging_mixin.py:109} INFO - [2024-05-27 08:22:38,122] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:22:38,133] {logging_mixin.py:109} INFO - [2024-05-27 08:22:38,133] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:22:38,140] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.062 seconds
+[2024-05-27 08:23:08,279] {processor.py:163} INFO - Started process (PID=1808) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:08,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:23:08,281] {logging_mixin.py:109} INFO - [2024-05-27 08:23:08,280] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:08,306] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:08,312] {logging_mixin.py:109} INFO - [2024-05-27 08:23:08,312] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:23:08,323] {logging_mixin.py:109} INFO - [2024-05-27 08:23:08,323] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:23:08,329] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.052 seconds
+[2024-05-27 08:23:38,472] {processor.py:163} INFO - Started process (PID=1818) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:38,473] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:23:38,474] {logging_mixin.py:109} INFO - [2024-05-27 08:23:38,474] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:38,503] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:23:38,542] {logging_mixin.py:109} INFO - [2024-05-27 08:23:38,542] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:23:38,560] {logging_mixin.py:109} INFO - [2024-05-27 08:23:38,560] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:23:38,569] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.100 seconds
+[2024-05-27 08:24:01,590] {processor.py:163} INFO - Started process (PID=1845) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:01,591] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:24:01,592] {logging_mixin.py:109} INFO - [2024-05-27 08:24:01,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:01,633] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:01,641] {logging_mixin.py:109} INFO - [2024-05-27 08:24:01,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:24:01,649] {logging_mixin.py:109} INFO - [2024-05-27 08:24:01,649] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:24:01,658] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.070 seconds
+[2024-05-27 08:24:31,804] {processor.py:163} INFO - Started process (PID=1872) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:31,805] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:24:31,805] {logging_mixin.py:109} INFO - [2024-05-27 08:24:31,805] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:31,831] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:31,838] {logging_mixin.py:109} INFO - [2024-05-27 08:24:31,838] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:24:31,849] {logging_mixin.py:109} INFO - [2024-05-27 08:24:31,849] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:24:31,855] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.054 seconds
+[2024-05-27 08:24:49,930] {processor.py:163} INFO - Started process (PID=1882) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:49,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:24:49,932] {logging_mixin.py:109} INFO - [2024-05-27 08:24:49,931] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:50,476] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:24:50,483] {logging_mixin.py:109} INFO - [2024-05-27 08:24:50,483] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:24:50,494] {logging_mixin.py:109} INFO - [2024-05-27 08:24:50,493] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:24:50,502] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.574 seconds
+[2024-05-27 08:25:21,124] {processor.py:163} INFO - Started process (PID=1924) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:21,125] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:25:21,126] {logging_mixin.py:109} INFO - [2024-05-27 08:25:21,126] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:21,662] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:21,669] {logging_mixin.py:109} INFO - [2024-05-27 08:25:21,669] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:25:21,680] {logging_mixin.py:109} INFO - [2024-05-27 08:25:21,680] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:25:21,691] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.569 seconds
+[2024-05-27 08:25:52,329] {processor.py:163} INFO - Started process (PID=1949) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:52,329] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:25:52,330] {logging_mixin.py:109} INFO - [2024-05-27 08:25:52,330] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:52,859] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:25:52,865] {logging_mixin.py:109} INFO - [2024-05-27 08:25:52,865] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:25:52,874] {logging_mixin.py:109} INFO - [2024-05-27 08:25:52,874] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:25:52,882] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.555 seconds
+[2024-05-27 08:26:23,508] {processor.py:163} INFO - Started process (PID=1974) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:23,509] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:26:23,509] {logging_mixin.py:109} INFO - [2024-05-27 08:26:23,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:24,083] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:24,093] {logging_mixin.py:109} INFO - [2024-05-27 08:26:24,093] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:26:24,106] {logging_mixin.py:109} INFO - [2024-05-27 08:26:24,106] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:26:24,116] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.609 seconds
+[2024-05-27 08:26:54,733] {processor.py:163} INFO - Started process (PID=1999) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:54,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:26:54,734] {logging_mixin.py:109} INFO - [2024-05-27 08:26:54,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:55,257] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:26:55,267] {logging_mixin.py:109} INFO - [2024-05-27 08:26:55,267] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:26:55,285] {logging_mixin.py:109} INFO - [2024-05-27 08:26:55,285] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:26:55,294] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.563 seconds
+[2024-05-27 08:27:26,010] {processor.py:163} INFO - Started process (PID=2024) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:26,011] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:27:26,012] {logging_mixin.py:109} INFO - [2024-05-27 08:27:26,012] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:26,520] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:26,528] {logging_mixin.py:109} INFO - [2024-05-27 08:27:26,528] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:27:26,543] {logging_mixin.py:109} INFO - [2024-05-27 08:27:26,543] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:27:26,555] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.549 seconds
+[2024-05-27 08:27:57,215] {processor.py:163} INFO - Started process (PID=2049) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:57,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:27:57,218] {logging_mixin.py:109} INFO - [2024-05-27 08:27:57,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:57,808] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:27:57,819] {logging_mixin.py:109} INFO - [2024-05-27 08:27:57,819] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:27:57,830] {logging_mixin.py:109} INFO - [2024-05-27 08:27:57,830] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:27:57,839] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.628 seconds
+[2024-05-27 08:28:28,379] {processor.py:163} INFO - Started process (PID=2091) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:28:28,379] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:28:28,380] {logging_mixin.py:109} INFO - [2024-05-27 08:28:28,380] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:28:28,880] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:28:28,887] {logging_mixin.py:109} INFO - [2024-05-27 08:28:28,887] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:28:28,898] {logging_mixin.py:109} INFO - [2024-05-27 08:28:28,898] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:28:28,906] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.529 seconds
+[2024-05-27 08:28:59,593] {processor.py:163} INFO - Started process (PID=2116) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:28:59,594] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:28:59,595] {logging_mixin.py:109} INFO - [2024-05-27 08:28:59,594] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:00,115] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:00,122] {logging_mixin.py:109} INFO - [2024-05-27 08:29:00,121] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:29:00,132] {logging_mixin.py:109} INFO - [2024-05-27 08:29:00,132] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:29:00,139] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 0.548 seconds
+[2024-05-27 08:29:12,207] {processor.py:163} INFO - Started process (PID=2153) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:12,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:29:12,210] {logging_mixin.py:109} INFO - [2024-05-27 08:29:12,209] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:18,573] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:29:18,584] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:29:18,676] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:29:18,676] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:29:18,687] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:29:18,691] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:29:18,691] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:29:18,691] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:29:18,703] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:29:18,778] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:29:18,779] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:29:18,798] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:29:18,894] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:29:18,924] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:29:18,940] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:18,948] {logging_mixin.py:109} INFO - [2024-05-27 08:29:18,948] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:29:18,962] {logging_mixin.py:109} INFO - [2024-05-27 08:29:18,962] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:29:18,972] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.768 seconds
+[2024-05-27 08:29:49,061] {processor.py:163} INFO - Started process (PID=2200) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:49,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:29:49,062] {logging_mixin.py:109} INFO - [2024-05-27 08:29:49,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:54,659] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:29:54,670] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:29:54,763] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:29:54,763] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:29:54,773] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:29:54,778] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:29:54,778] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:29:54,778] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:29:54,791] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:29:54,830] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:29:54,830] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:29:54,843] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:29:54,911] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:29:54,936] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:29:54,951] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:29:54,958] {logging_mixin.py:109} INFO - [2024-05-27 08:29:54,958] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:29:54,967] {logging_mixin.py:109} INFO - [2024-05-27 08:29:54,967] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:29:54,980] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.921 seconds
+[2024-05-27 08:30:25,178] {processor.py:163} INFO - Started process (PID=2242) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:30:25,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:30:25,179] {logging_mixin.py:109} INFO - [2024-05-27 08:30:25,179] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:30:30,918] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:30:30,929] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:30:31,034] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:30:31,034] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:30:31,044] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:30:31,050] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:30:31,051] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:30:31,051] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:30:31,065] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:30:31,120] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:30:31,121] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:30:31,136] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:30:31,204] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:30:31,235] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:30:31,259] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:30:31,268] {logging_mixin.py:109} INFO - [2024-05-27 08:30:31,268] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:30:31,293] {logging_mixin.py:109} INFO - [2024-05-27 08:30:31,292] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:30:31,302] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.126 seconds
+[2024-05-27 08:31:01,375] {processor.py:163} INFO - Started process (PID=2267) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:01,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:31:01,377] {logging_mixin.py:109} INFO - [2024-05-27 08:31:01,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:06,936] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:31:06,948] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:31:07,038] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:31:07,039] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:31:07,050] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:31:07,054] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:31:07,055] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:31:07,055] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:31:07,067] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:31:07,106] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:31:07,106] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:31:07,121] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:31:07,186] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:31:07,210] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:31:07,229] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:07,239] {logging_mixin.py:109} INFO - [2024-05-27 08:31:07,239] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:31:07,253] {logging_mixin.py:109} INFO - [2024-05-27 08:31:07,253] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:31:07,260] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.888 seconds
+[2024-05-27 08:31:37,601] {processor.py:163} INFO - Started process (PID=2292) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:37,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:31:37,602] {logging_mixin.py:109} INFO - [2024-05-27 08:31:37,602] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:43,101] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:31:43,113] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:31:43,213] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:31:43,214] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:31:43,224] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:31:43,227] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:31:43,228] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:31:43,228] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:31:43,240] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:31:43,280] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:31:43,280] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:31:43,294] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:31:43,359] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:31:43,382] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:31:43,395] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:31:43,400] {logging_mixin.py:109} INFO - [2024-05-27 08:31:43,400] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:31:43,411] {logging_mixin.py:109} INFO - [2024-05-27 08:31:43,411] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:31:43,417] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.818 seconds
+[2024-05-27 08:32:13,763] {processor.py:163} INFO - Started process (PID=2317) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:13,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:32:13,766] {logging_mixin.py:109} INFO - [2024-05-27 08:32:13,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:19,188] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:32:19,201] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:32:19,291] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:32:19,292] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:32:19,302] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:32:19,305] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:32:19,306] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:32:19,307] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:32:19,319] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:32:19,358] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:32:19,359] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:32:19,371] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:32:19,440] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:32:19,465] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:32:19,480] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:19,486] {logging_mixin.py:109} INFO - [2024-05-27 08:32:19,486] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:32:19,497] {logging_mixin.py:109} INFO - [2024-05-27 08:32:19,497] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:32:19,505] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.745 seconds
+[2024-05-27 08:32:49,999] {processor.py:163} INFO - Started process (PID=2347) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:50,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:32:50,001] {logging_mixin.py:109} INFO - [2024-05-27 08:32:50,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:55,316] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:32:55,326] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:32:55,410] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:32:55,411] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:32:55,422] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:32:55,426] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:32:55,426] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:32:55,426] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:32:55,439] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:32:55,480] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:32:55,481] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:32:55,494] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:32:55,557] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:32:55,580] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:32:55,592] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:32:55,598] {logging_mixin.py:109} INFO - [2024-05-27 08:32:55,598] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:32:55,608] {logging_mixin.py:109} INFO - [2024-05-27 08:32:55,608] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:32:55,623] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.627 seconds
+[2024-05-27 08:33:26,332] {processor.py:163} INFO - Started process (PID=2372) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:33:26,333] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:33:26,333] {logging_mixin.py:109} INFO - [2024-05-27 08:33:26,333] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:33:32,086] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:33:32,097] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:33:32,193] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:33:32,193] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:33:32,203] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:33:32,207] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:33:32,207] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:33:32,207] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:33:32,220] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:33:32,268] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:33:32,268] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:33:32,284] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:33:32,352] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:33:32,378] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:33:32,392] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:33:32,399] {logging_mixin.py:109} INFO - [2024-05-27 08:33:32,399] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:33:32,410] {logging_mixin.py:109} INFO - [2024-05-27 08:33:32,410] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:33:32,422] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.093 seconds
+[2024-05-27 08:34:02,553] {processor.py:163} INFO - Started process (PID=2397) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:02,553] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:34:02,554] {logging_mixin.py:109} INFO - [2024-05-27 08:34:02,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:08,422] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:34:08,433] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:34:08,542] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:34:08,542] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:34:08,554] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:34:08,558] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:34:08,559] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:34:08,559] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:34:08,572] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:34:08,622] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:34:08,622] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:34:08,635] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:34:08,716] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:34:08,751] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:34:08,766] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:08,774] {logging_mixin.py:109} INFO - [2024-05-27 08:34:08,773] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:34:08,787] {logging_mixin.py:109} INFO - [2024-05-27 08:34:08,787] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:34:08,796] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.246 seconds
+[2024-05-27 08:34:39,733] {processor.py:163} INFO - Started process (PID=2422) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:39,735] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:34:39,736] {logging_mixin.py:109} INFO - [2024-05-27 08:34:39,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:45,974] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:34:45,987] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:34:46,082] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:34:46,082] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:34:46,093] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:34:46,096] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:34:46,096] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:34:46,096] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:34:46,108] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:34:46,147] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:34:46,148] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:34:46,161] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:34:46,228] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:34:46,255] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:34:46,269] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:34:46,275] {logging_mixin.py:109} INFO - [2024-05-27 08:34:46,274] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:34:46,286] {logging_mixin.py:109} INFO - [2024-05-27 08:34:46,286] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:34:46,292] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.562 seconds
+[2024-05-27 08:35:16,970] {processor.py:163} INFO - Started process (PID=2447) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:35:16,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:35:16,972] {logging_mixin.py:109} INFO - [2024-05-27 08:35:16,971] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:35:23,501] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:35:23,519] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:35:23,649] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:35:23,650] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:35:23,663] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:35:23,668] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:35:23,669] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:35:23,669] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:35:23,686] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:35:23,743] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:35:23,744] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:35:23,763] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:35:23,837] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:35:23,886] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:35:23,907] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:35:23,915] {logging_mixin.py:109} INFO - [2024-05-27 08:35:23,915] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:35:23,934] {logging_mixin.py:109} INFO - [2024-05-27 08:35:23,934] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:35:23,947] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.980 seconds
+[2024-05-27 08:35:54,166] {processor.py:163} INFO - Started process (PID=2477) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:35:54,166] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:35:54,167] {logging_mixin.py:109} INFO - [2024-05-27 08:35:54,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:35:59,771] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:35:59,782] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:35:59,885] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:35:59,886] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:35:59,896] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:35:59,900] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:35:59,901] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:35:59,901] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:35:59,916] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:35:59,958] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:35:59,958] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:35:59,972] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:36:00,053] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:36:00,094] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:36:00,119] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:36:00,131] {logging_mixin.py:109} INFO - [2024-05-27 08:36:00,131] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:36:00,155] {logging_mixin.py:109} INFO - [2024-05-27 08:36:00,155] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:36:00,171] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.008 seconds
+[2024-05-27 08:36:30,350] {processor.py:163} INFO - Started process (PID=2502) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:36:30,351] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:36:30,351] {logging_mixin.py:109} INFO - [2024-05-27 08:36:30,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:36:35,606] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:36:35,619] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:36:35,719] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:36:35,719] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:36:35,730] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:36:35,735] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:36:35,736] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:36:35,736] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:36:35,750] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:36:35,789] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:36:35,789] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:36:35,802] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:36:35,866] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:36:35,892] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:36:35,906] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:36:35,912] {logging_mixin.py:109} INFO - [2024-05-27 08:36:35,912] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:36:35,924] {logging_mixin.py:109} INFO - [2024-05-27 08:36:35,923] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:36:35,931] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.583 seconds
+[2024-05-27 08:37:06,605] {processor.py:163} INFO - Started process (PID=2527) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:06,606] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:37:06,607] {logging_mixin.py:109} INFO - [2024-05-27 08:37:06,606] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:12,158] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:37:12,170] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:37:12,268] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:37:12,268] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:37:12,279] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:37:12,283] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:37:12,284] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:37:12,284] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:37:12,297] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:37:12,339] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:37:12,340] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:37:12,353] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:37:12,429] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:37:12,456] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:37:12,471] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:12,481] {logging_mixin.py:109} INFO - [2024-05-27 08:37:12,480] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:37:12,491] {logging_mixin.py:109} INFO - [2024-05-27 08:37:12,491] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:37:12,499] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.896 seconds
+[2024-05-27 08:37:42,885] {processor.py:163} INFO - Started process (PID=2569) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:42,887] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:37:42,888] {logging_mixin.py:109} INFO - [2024-05-27 08:37:42,888] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:48,893] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:37:48,904] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:37:48,994] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:37:48,994] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:37:49,005] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:37:49,009] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:37:49,010] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:37:49,010] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:37:49,024] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:37:49,061] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:37:49,062] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:37:49,074] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:37:49,137] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:37:49,161] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:37:49,173] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:37:49,179] {logging_mixin.py:109} INFO - [2024-05-27 08:37:49,178] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:37:49,190] {logging_mixin.py:109} INFO - [2024-05-27 08:37:49,189] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:37:49,197] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.315 seconds
+[2024-05-27 08:38:20,061] {processor.py:163} INFO - Started process (PID=2594) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:38:20,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:38:20,063] {logging_mixin.py:109} INFO - [2024-05-27 08:38:20,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:38:25,406] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:38:25,416] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:38:25,509] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:38:25,510] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:38:25,520] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:38:25,523] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:38:25,524] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:38:25,524] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:38:25,535] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:38:25,575] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:38:25,575] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:38:25,589] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:38:25,657] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:38:25,684] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:38:25,700] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:38:25,706] {logging_mixin.py:109} INFO - [2024-05-27 08:38:25,706] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:38:25,719] {logging_mixin.py:109} INFO - [2024-05-27 08:38:25,719] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:38:25,730] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.671 seconds
+[2024-05-27 08:38:56,295] {processor.py:163} INFO - Started process (PID=2624) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:38:56,296] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:38:56,296] {logging_mixin.py:109} INFO - [2024-05-27 08:38:56,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:39:01,701] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:39:01,715] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:39:01,813] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:39:01,813] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:39:01,824] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:39:01,827] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:39:01,827] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:39:01,828] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:39:01,839] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:39:01,879] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:39:01,880] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:39:01,894] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:39:01,960] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:39:01,981] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:39:01,997] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:39:02,006] {logging_mixin.py:109} INFO - [2024-05-27 08:39:02,006] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:39:02,021] {logging_mixin.py:109} INFO - [2024-05-27 08:39:02,021] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:39:02,030] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.737 seconds
+[2024-05-27 08:39:32,498] {processor.py:163} INFO - Started process (PID=2649) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:39:32,499] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:39:32,499] {logging_mixin.py:109} INFO - [2024-05-27 08:39:32,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:39:37,662] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:39:37,673] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:39:37,760] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:39:37,760] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:39:37,769] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:39:37,772] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:39:37,773] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:39:37,773] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:39:37,785] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:39:37,825] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:39:37,826] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:39:37,838] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:39:37,902] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:39:37,928] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:39:37,941] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:39:37,947] {logging_mixin.py:109} INFO - [2024-05-27 08:39:37,947] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:39:37,958] {logging_mixin.py:109} INFO - [2024-05-27 08:39:37,958] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:39:37,965] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.469 seconds
+[2024-05-27 08:40:08,715] {processor.py:163} INFO - Started process (PID=2674) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:08,715] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:40:08,716] {logging_mixin.py:109} INFO - [2024-05-27 08:40:08,716] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:13,869] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:40:13,881] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:40:13,969] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:40:13,969] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:40:13,980] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:40:13,985] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:40:13,985] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:40:13,985] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:40:13,998] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:40:14,043] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:40:14,043] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:40:14,058] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:40:14,131] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:40:14,156] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:40:14,171] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:14,177] {logging_mixin.py:109} INFO - [2024-05-27 08:40:14,177] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:40:14,189] {logging_mixin.py:109} INFO - [2024-05-27 08:40:14,189] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:40:14,196] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.484 seconds
+[2024-05-27 08:40:44,903] {processor.py:163} INFO - Started process (PID=2699) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:44,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:40:44,905] {logging_mixin.py:109} INFO - [2024-05-27 08:40:44,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:50,578] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:40:50,591] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:40:50,695] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:40:50,696] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:40:50,708] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:40:50,717] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:40:50,717] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:40:50,717] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:40:50,731] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:40:50,776] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:40:50,776] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:40:50,791] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:40:50,856] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:40:50,881] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:40:50,894] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:40:50,900] {logging_mixin.py:109} INFO - [2024-05-27 08:40:50,900] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:40:50,912] {logging_mixin.py:109} INFO - [2024-05-27 08:40:50,912] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:40:50,921] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.021 seconds
+[2024-05-27 08:41:21,081] {processor.py:163} INFO - Started process (PID=2724) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:41:21,082] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:41:21,083] {logging_mixin.py:109} INFO - [2024-05-27 08:41:21,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:41:26,769] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:41:26,782] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:41:26,896] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:41:26,897] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:41:26,908] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:41:26,913] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:41:26,913] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:41:26,913] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:41:26,927] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:41:26,988] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:41:26,989] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:41:27,004] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:41:27,112] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:41:27,172] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:41:27,197] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:41:27,207] {logging_mixin.py:109} INFO - [2024-05-27 08:41:27,206] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:41:27,238] {logging_mixin.py:109} INFO - [2024-05-27 08:41:27,237] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:41:27,260] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.181 seconds
+[2024-05-27 08:41:57,375] {processor.py:163} INFO - Started process (PID=2754) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:41:57,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:41:57,377] {logging_mixin.py:109} INFO - [2024-05-27 08:41:57,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:42:03,111] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:42:03,123] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:42:03,212] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:42:03,213] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:42:03,223] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:42:03,227] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:42:03,227] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:42:03,227] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:42:03,239] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:42:03,279] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:42:03,279] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:42:03,294] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:42:03,357] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:42:03,382] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:42:03,398] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:42:03,416] {logging_mixin.py:109} INFO - [2024-05-27 08:42:03,416] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:42:03,431] {logging_mixin.py:109} INFO - [2024-05-27 08:42:03,431] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:42:03,443] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.070 seconds
+[2024-05-27 08:42:33,614] {processor.py:163} INFO - Started process (PID=2779) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:42:33,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:42:33,615] {logging_mixin.py:109} INFO - [2024-05-27 08:42:33,615] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:42:39,187] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:42:39,199] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:42:39,293] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:42:39,293] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:42:39,305] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:42:39,309] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:42:39,309] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:42:39,310] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:42:39,324] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:42:39,366] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:42:39,366] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:42:39,380] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:42:39,446] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:42:39,467] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:42:39,479] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:42:39,487] {logging_mixin.py:109} INFO - [2024-05-27 08:42:39,487] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:42:39,496] {logging_mixin.py:109} INFO - [2024-05-27 08:42:39,496] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:42:39,503] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 5.892 seconds
+[2024-05-27 08:43:09,828] {processor.py:163} INFO - Started process (PID=2804) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:09,829] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:43:09,830] {logging_mixin.py:109} INFO - [2024-05-27 08:43:09,830] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:16,696] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:43:16,708] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:43:16,821] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:43:16,821] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:43:16,831] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:43:16,835] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:43:16,835] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:43:16,835] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:43:16,849] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:43:16,894] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:43:16,895] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:43:16,907] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:43:16,980] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:43:17,007] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:43:17,026] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:17,033] {logging_mixin.py:109} INFO - [2024-05-27 08:43:17,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:43:17,047] {logging_mixin.py:109} INFO - [2024-05-27 08:43:17,047] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:43:17,055] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 7.229 seconds
+[2024-05-27 08:43:47,110] {processor.py:163} INFO - Started process (PID=2829) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:47,111] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:43:47,112] {logging_mixin.py:109} INFO - [2024-05-27 08:43:47,112] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:53,632] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:43:53,644] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:43:53,736] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:43:53,737] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:43:53,747] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:43:53,753] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:43:53,753] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:43:53,753] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:43:53,766] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:43:53,810] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:43:53,811] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:43:53,823] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:43:53,891] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:43:53,913] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:43:53,930] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:43:53,937] {logging_mixin.py:109} INFO - [2024-05-27 08:43:53,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:43:53,949] {logging_mixin.py:109} INFO - [2024-05-27 08:43:53,949] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:43:53,960] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.852 seconds
+[2024-05-27 08:44:24,316] {processor.py:163} INFO - Started process (PID=2859) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:44:24,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:44:24,317] {logging_mixin.py:109} INFO - [2024-05-27 08:44:24,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:44:30,542] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:44:30,580] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:44:30,742] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:44:30,743] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:44:30,760] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:44:30,766] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:44:30,767] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:44:30,767] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:44:30,796] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:44:30,860] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:44:30,860] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:44:30,881] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:44:30,973] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:44:31,007] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:44:31,037] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:44:31,069] {logging_mixin.py:109} INFO - [2024-05-27 08:44:31,069] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:44:31,087] {logging_mixin.py:109} INFO - [2024-05-27 08:44:31,086] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:44:31,098] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.784 seconds
+[2024-05-27 08:45:01,572] {processor.py:163} INFO - Started process (PID=2884) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:01,573] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:45:01,574] {logging_mixin.py:109} INFO - [2024-05-27 08:45:01,574] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:07,440] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:45:07,459] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:45:07,558] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:45:07,559] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:45:07,569] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:45:07,572] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:45:07,573] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:45:07,573] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:45:07,588] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:45:07,629] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:45:07,630] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:45:07,644] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:45:07,713] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:45:07,761] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:45:07,788] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:07,802] {logging_mixin.py:109} INFO - [2024-05-27 08:45:07,802] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:45:07,827] {logging_mixin.py:109} INFO - [2024-05-27 08:45:07,826] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:45:07,841] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.271 seconds
+[2024-05-27 08:45:38,797] {processor.py:163} INFO - Started process (PID=2909) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:38,798] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:45:38,799] {logging_mixin.py:109} INFO - [2024-05-27 08:45:38,798] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:44,539] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:45:44,554] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:45:44,672] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:45:44,673] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:45:44,684] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:45:44,692] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:45:44,693] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:45:44,693] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:45:44,707] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:45:44,762] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:45:44,763] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:45:44,776] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:45:44,850] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:45:44,877] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:45:44,891] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:45:44,897] {logging_mixin.py:109} INFO - [2024-05-27 08:45:44,897] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:45:44,906] {logging_mixin.py:109} INFO - [2024-05-27 08:45:44,906] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:45:44,913] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.118 seconds
+[2024-05-27 08:46:15,088] {processor.py:163} INFO - Started process (PID=2934) to work on /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:46:15,088] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_script_run_v1.py for tasks to queue
+[2024-05-27 08:46:15,089] {logging_mixin.py:109} INFO - [2024-05-27 08:46:15,089] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:46:20,867] {logging_mixin.py:109} INFO - Call to process_dataframe at depth 0
+[2024-05-27 08:46:20,878] {logging_mixin.py:109} INFO - Found dictionaries in columns: ['CATALOG_FILTER.filters', 'INTERACTION_TOPICS', 'CASE_TYPES', 'GET_FILTERED_SERVICES_ARRAY', 'PRODUCT_ARRAY', 'TASK_DESCRIPTION.conditions', 'SERVICE_NAME.conditions', 'SERVICE_STATUS.conditions', 'PRODUCT_NAME.conditions', 'SERVICE_TYPE.conditions', 'PRICE_PLAN_NAME.conditions', 'CONDITION_COMMENT.conditions']
+[2024-05-27 08:46:21,008] {logging_mixin.py:109} INFO - Expanded dictionaries, recursing...
+[2024-05-27 08:46:21,009] {logging_mixin.py:109} INFO -   Call to process_dataframe at depth 1
+[2024-05-27 08:46:21,024] {logging_mixin.py:109} INFO -   Found lists in columns: ['CATALOG_FILTER.filters.templates']
+[2024-05-27 08:46:21,031] {logging_mixin.py:109} INFO - Column CATALOG_FILTER.filters.templates after processing lists, skipping empty dicts:
+0    {'operator': 'eq', 'template': 'Волга', 'kind'...
+1    {'operator': 'include', 'template': 'main_scri...
+2    {'operator': 'include', 'template': 'task_feed...
+Name: CATALOG_FILTER.filters.templates, dtype: object
+[2024-05-27 08:46:21,031] {logging_mixin.py:109} INFO -   Processed lists, recursing...
+[2024-05-27 08:46:21,032] {logging_mixin.py:109} INFO -     Call to process_dataframe at depth 2
+[2024-05-27 08:46:21,050] {logging_mixin.py:109} INFO -     Found dictionaries in columns: ['CATALOG_FILTER.filters.templates', 'INTERACTION_TOPICS.theme', 'INTERACTION_TOPICS.detail', 'INTERACTION_TOPICS.result', 'CASE_TYPES.type1']
+[2024-05-27 08:46:21,099] {logging_mixin.py:109} INFO -     Expanded dictionaries, recursing...
+[2024-05-27 08:46:21,099] {logging_mixin.py:109} INFO -       Call to process_dataframe at depth 3
+[2024-05-27 08:46:21,113] {logging_mixin.py:109} INFO -       No more lists or dictionaries to process. Exiting recursion.
+[2024-05-27 08:46:21,187] {logging_mixin.py:109} INFO - Existing data deleted successfully.
+[2024-05-27 08:46:21,213] {logging_mixin.py:109} INFO - Data inserted into db_test.dataset_new successfully.
+[2024-05-27 08:46:21,229] {processor.py:654} INFO - DAG(s) dict_keys(['clickhouse_script_execution']) retrieved from /opt/airflow/dags/dag_script_run_v1.py
+[2024-05-27 08:46:21,239] {logging_mixin.py:109} INFO - [2024-05-27 08:46:21,239] {dag.py:2396} INFO - Sync 1 DAGs
+[2024-05-27 08:46:21,257] {logging_mixin.py:109} INFO - [2024-05-27 08:46:21,256] {dag.py:2935} INFO - Setting next_dagrun for clickhouse_script_execution to 2024-05-27T07:51:32.804486+00:00
+[2024-05-27 08:46:21,265] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_script_run_v1.py took 6.179 seconds
