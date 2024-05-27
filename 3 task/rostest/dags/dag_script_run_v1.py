@@ -28,7 +28,7 @@ dag = DAG(
     'clickhouse_script_execution',
     default_args=default_args,
     description='Run a Python script to interact with ClickHouse',
-    schedule_interval=timedelta(days=1),
+    schedule_interval=timedelta(hours=1),
     catchup=False,
 )
 
